@@ -14,7 +14,10 @@ class ProfilDosenApp extends StatelessWidget {
       title: 'Profil Dosen App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+        ),
+        scaffoldBackgroundColor: const Color(0xFFF4F4F9),
         useMaterial3: true,
       ),
       home: const DosenListPage(),

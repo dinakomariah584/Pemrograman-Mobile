@@ -10,48 +10,78 @@ class DosenDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Dosen'),
+        title: const Text('Profil Dosen'),
         backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const CircleAvatar(
-              radius: 60,
-              backgroundColor: Colors.deepPurple,
-              child: Icon(Icons.person, color: Colors.white, size: 60),
-            ),
-            const SizedBox(height: 20),
-            Text(
-              dosen.nama,
-              style: const TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 10),
-            Text('NIP: ${dosen.nip}'),
-            const SizedBox(height: 10),
-            Text('Bidang Keahlian: ${dosen.bidang}'),
-            const SizedBox(height: 30),
-            ElevatedButton.icon(
-              icon: const Icon(Icons.arrow_back),
-              label: const Text('Kembali'),
-              onPressed: () => Navigator.pop(context),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepPurple,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 30,
-                  vertical: 12,
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(24),
+        child: Center(
+          child: Column(
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(100),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.deepPurple.withValues(alpha: 0.3),
+                      blurRadius: 15,
+                      offset: const Offset(0, 8),
+                    ),
+                  ],
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(100),
+                  child: Image.asset(
+                    dosen.foto,
+                    width: 180,
+                    height: 180,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-            ),
-          ],
+              const SizedBox(height: 25),
+              Text(
+                dosen.nama,
+                style: const TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.deepPurple,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 12),
+              Text(
+                'NIP: ${dosen.nip}',
+                style: const TextStyle(fontSize: 16, color: Colors.black54),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Bidang Keahlian: ${dosen.bidang}',
+                style: const TextStyle(fontSize: 16, color: Colors.black54),
+              ),
+              const SizedBox(height: 30),
+              ElevatedButton.icon(
+                onPressed: () => Navigator.pop(context),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.deepPurple,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 32,
+                    vertical: 12,
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                icon: const Icon(Icons.arrow_back),
+                label: const Text(
+                  'Kembali ke Daftar',
+                  style: TextStyle(fontSize: 16),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
