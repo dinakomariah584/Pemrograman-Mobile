@@ -53,11 +53,10 @@ class BiodataPage extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              // Foto profil online
+              // Foto profil
               const CircleAvatar(
                 radius: 50,
-                backgroundImage:
-                    NetworkImage('https://i.pravatar.cc/150?img=47'),
+                backgroundImage: AssetImage('assets/profile.jpg'),
               ),
               const SizedBox(height: 15),
 
@@ -83,7 +82,7 @@ class BiodataPage extends StatelessWidget {
               infoRow(Icons.badge, 'NIM', '701230065'),
               infoRow(Icons.school, 'Program Studi', 'Sistem Informasi'),
               infoRow(Icons.location_on, 'Alamat', 'Jambi'),
-              infoRow(Icons.email, 'Email', 'dinakomariah584@email.com'),
+              infoRow(Icons.email, 'Email', 'dinakomariah@email.com'),
 
               const SizedBox(height: 20),
               ElevatedButton.icon(
@@ -95,8 +94,7 @@ class BiodataPage extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 25, vertical: 12),
+                  padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 12),
                 ),
               ),
             ],
@@ -106,7 +104,7 @@ class BiodataPage extends StatelessWidget {
     );
   }
 
-  // Widget pembuat baris info
+  // Widget untuk membuat baris informasi
   static Widget infoRow(IconData icon, String label, String value) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6.0),
