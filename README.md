@@ -8,6 +8,7 @@ Tugas-tugas aplikasi mobile semester 5
 4. **Profil Dosen App** (Folder: `profil_dosen_app`)
 5. **Flutter Campus Feedback** (Folder: `flutter_campus_feedback`)
 6. **Flutter Navigation Demo** (Folder: `flutter_navigation_demo`)
+7. **Shopping List App** (Folder: `shopping_list_app`)
 
 ---
 ### Catatan Flutter:
