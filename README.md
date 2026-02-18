@@ -3,7 +3,7 @@ Tugas-tugas aplikasi mobile semester 5
 
 ## Daftar Proyek:
 1. **Form Feedback App** (Folder: `form_feedback_app_folder`)
-2. **Biodata App** (Folder: `biodata_app_folder`)
+2. **Biodata App** (Folder: `biodata_app`)
 
 ---
 ### Catatan Flutter:
