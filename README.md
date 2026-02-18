@@ -1,21 +1,10 @@
-<<<<<<< HEAD
 # Pemrograman-Mobile
 Tugas-tugas aplikasi mobile semester 5
-=======
-# form_feedback_app
 
-A new Flutter project.
+## Daftar Proyek:
+1. **Form Feedback App** (Folder: `form_feedback_app_folder`)
+2. **Biodata App** (Folder: `biodata_app_folder`)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> form_feedback_app/main
+---
+### Catatan Flutter:
+A new Flutter project. Untuk menjalankan masing-masing aplikasi, silakan masuk ke folder terkait dan jalankan `flutter run`.
