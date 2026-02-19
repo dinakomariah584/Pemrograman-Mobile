@@ -2,14 +2,15 @@
 Tugas-tugas aplikasi mobile semester 5
 
 ## Daftar Proyek:
-1. **Form Feedback App** (Folder: `form_feedback_app`)
-2. **Biodata App** (Folder: `biodata_app`)
-3. **Profil Pribadi App** (Folder: `profil_pribadi_app`)
-4. **Profil Dosen App** (Folder: `profil_dosen_app`)
-5. **Flutter Campus Feedback** (Folder: `flutter_campus_feedback`)
-6. **Flutter Navigation Demo** (Folder: `flutter_navigation_demo`)
-7. **Shopping List App** (Folder: `shopping_list_app`)
-8. **Todo List App** (Folder: `todo_list_app`)
+1. **Tugas 1** (Folder: `biodata_app`)
+2. **Tugas 2** (Folder: `profil_pribadi_app`)
+3. **Tugas 3** (Folder: `profil_dosen_app`)
+4. **Tugas 4** (Folder: `form_feedback_app`)
+5. **Tugas 5** (Folder: `flutter_navigation_demo`)
+6. **Tugas 6 Aplikasi 1** (Folder: `todo_list_app`)
+7. **Tugas 6 Aplikasi 2** (Folder: `shopping_list_app`)
+8. **Tugas 7** (Folder: `form_registrasi_mahasiswa`)
+9. **Flutter Campus Feedback** (Folder: `flutter_campus_feedback`) 
 
 ---
 ### Catatan Flutter:
