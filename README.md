@@ -11,6 +11,7 @@ Tugas-tugas aplikasi mobile semester 5
 7. **Tugas 6 Aplikasi 2** (Folder: `shopping_list_app`)
 8. **Tugas 7** (Folder: `form_registrasi_mahasiswa`)
 9. **Flutter Campus Feedback** (Folder: `flutter_campus_feedback`) 
+10. **CRUD Catatan Tugas Mahasiswa** (Folder: `crud_catatantugasmahasiswa`)
 
 ---
 ### Catatan Flutter:
