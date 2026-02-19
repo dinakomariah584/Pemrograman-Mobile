@@ -12,6 +12,7 @@ Tugas-tugas aplikasi mobile semester 5
 8. **Tugas 7** (Folder: `form_registrasi_mahasiswa`)
 9. **Flutter Campus Feedback** (Folder: `flutter_campus_feedback`) 
 10. **CRUD Catatan Tugas Mahasiswa** (Folder: `crud_catatantugasmahasiswa`)
+11. **UAS Pemrograman Mobile** (Folder: `UAS_PemrogramanMobile`)
 
 ---
 ### Catatan Flutter:
